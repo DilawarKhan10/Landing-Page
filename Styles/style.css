@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    border: 2px solid black;
+    width: 100%;
+    padding: 30px 110px 0px 110px;
+}
+.hero-container{
+    border: 2px solid green;
+}
+.nav-container{
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+.nav-links ul{
+    list-style-type: none;
+}
+ul li{
+    display: inline;
+    padding-right: 50px;
+}
+ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: 14px;
+    letter-spacing: 1%;
+}
+.brand{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    padding-right: 300px;
+}
+.icon-container{
+    width: 50px;
+    height: 50px;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-content{
+    /* border: 2px solid red; */
+    width: 100%;
+   display: flex;
+}
+.content-left{
+    /* border: 2px solid black; */
+    width: 40%; 
+    height: auto;
+    margin: 80px 0px;
+}
+.content-left .p{
+    font-size: 80px;
+    line-height: 80px;
+    font-weight: 700;  
+    letter-spacing: 2%;
+    font-family: 'Bai Jamjuree', sans-serif !important;
+}
+.content-left .p1{
+    font-size: 80px;
+    line-height: 80px;
+    font-weight: 700;  
+    letter-spacing: 2%;
+    font-family: 'Bai Jamjuree', sans-serif !important;
+}
+.p1 span{
+    display: inline-block;
+    border: 3px solid #FF8A1F;
+    border-radius: 50%;
+    height:80px;
+    margin-bottom: 30px;
+}
+.sub-heading{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.btn-container{
+    margin-top: 30px;
+    width: 185px;
+    height: 50px;
+}
+.btn-container button{
+    width: 50px;
+    height: 50px;
+    color: white;
+    background-color: black;
+}
+.btn-container button i{
+    font-size: 18px;
+}
+.btn-container span{
+    padding-left: 8px;
+    font-size: 19px;
+    font-weight: 500;
+}
+.content-right{
+    width: 60%;
+    height: 416px;
+    display: flex;
+    justify-content: end;
+}
+.content-right img{
+    /* height: 420px; */
+}
+
+.cards-container{
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.cards-item{
+    /* border: 2px solid black; */
+    max-width: 230px;
+}
+.cards-item span{
+    width: 32px;
+    height: 32px;
+}
+.hot{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 42px;
+    font-family: 'Bai Jamjuree', sans-serif !important;
+    
+}
+.text{
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1%;
+    font-weight: 400;
+    padding-top: 16px;
+}
+.text2{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    padding-top: 16px;
+}
