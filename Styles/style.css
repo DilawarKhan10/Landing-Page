@@ -119,6 +119,7 @@ ul li a{
 }
 .content-right img{
     /* height: 420px; */
+    width: 100%;
 }
 
 .cards-container{
@@ -154,4 +155,40 @@ ul li a{
     font-weight: 700;
     line-height: 28px;
     padding-top: 16px;
+}
+.social-container{
+    /* border: 2px solid red; */
+    width: 100%;
+    margin-top: 120px;
+    height: 452px;
+    display: flex;
+    align-items: flex-end;
+}
+.shape{
+    /* border: 2px solid orange; */
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%,-50%);
+}
+.shape img{
+    width: 70px;
+    height: 70px;
+}
+.social-content{
+    /* border: 2px solid black; */
+    height: 417px;
+    width: 100%;
+    position: relative;
+    background-color:#ceedff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.social-content .left, .right{
+    border: 2px solid black;
+    width: 261px;
+    height: 144px;
 }
